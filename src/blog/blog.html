@@ -1,0 +1,33 @@
+<template>
+
+  <div class="row">
+    <div class="col s12 m12">
+      <md-card title="${data.cardTitle}" class="col s12">
+
+        <md-slider interval="${data.sliderInterval}" duration="${data.sliderDuration}">
+          <li repeat.for="post of data.sliderElements">
+            <img src="${post.backgroundImage}" style="filter: blur(50px);"/>
+            <div class="caption left-align">
+              <div class="row">
+                <div class="col l4">
+                  <img src="${post.iconImage}"/>
+                </div>
+                <div class="col l8">
+                  <h4 class="article-title" css="color: ${post.textColor}" >${post.textTitle}</h4>
+                  <h5 class="article-description" css="color: ${post.textColor}">
+                    ${post.textDescription}
+                  </h5>
+                  <div class="button-row" style="text-align:right">
+                    <a  href="${post.buttonUrl}" target="_blank" md-button="flat: true;" class="primary">${post.buttonText}</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </md-slider>
+
+      </md-card>
+    </div>
+  </div>
+
+</template>

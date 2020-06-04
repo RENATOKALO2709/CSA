@@ -1,0 +1,124 @@
+{
+  "headerLabel": "CSA SANEAMIENTO AMBIENTAL",
+  "primaryColor": "#3068ad",
+  "secondaryColor": "#26a69a",
+  "errorColor": "#f44336",
+  "successColor": "#4caf50",
+  "linkColor": "#039be5",
+  "sections": [
+    {
+      "id": "home",
+      "name": "Home",
+      "cardType": "imageAndText",
+      "showNav": false,
+      "metadata": {
+        "imageUrl": "../images/portada.png",
+        "cardTitle": "",
+        "textTitle": "Desinfección y Control de plagas",
+        "textParagraphs": [
+          "Brindamos soluciones avanzadas de Saneamiento Ambiental y Seguridad laboral"
+        ],
+        "tags": [
+        ]
+      }
+    },
+    {
+      "id": "Nosotros",
+      "name": "Nosotros",
+      "cardType": "carouselAndText",
+      "showNav": true,
+      "metadata": {
+        "carouselImages": [
+          "./images/desinfección.png",
+          "./images/desinsectación.png",
+          "./images/desratización.png",
+          "./images/limpieza.png",
+          "./images/csa.png"
+        ],
+        "cardTitle": "Nosotros",
+        "textTitle": "",
+        "textParagraphs": [
+          "CSA Saneamieto Ambiental es una empresa con más de 5 años de experiencia en desinfección, desinsectación y desratización.\n              Gracias a nuestros especialistas hemos logrado con máxima efectividad controlar infestaciones e infecciones no deseadas por la comunidad,\n              y sobre todo brindar tranquilidad a nuestros clientes. Cada programa de control de implementos , es monitoriado constantemente para lograr el 100% de eficacia en nuestros servicios\n                cumpliendo las normas de seguridad y salubridad para cuidar a las personas y sobre todo el medio ambiente.",
+          "Misión", "Brindar soluciones avanzadas en Saneamiento Ambiental.Cuidar por el medio ambiente.Mantener un alto nivel de servicio",
+          "Visión", "Lograr en un futuro cercano que todos cuiden el medio ambiente de nuestro planeta. Ser la empresa más importante para el país de Saneamiento Ambiental"
+        ],
+        "badges": [
+
+
+        ]
+      }
+    },
+    {
+      "id": "Publicaciones",
+      "name": "Publicaciones",
+      "cardType": "sliderBlog",
+      "showNav": true,
+      "metadata": {
+        "cardTitle": "Publicaciones",
+        "sliderDuration": 400,
+        "sliderInterval": 4000,
+        "sliderElements": [
+
+          {
+            "iconImage": "./icons/haccp.jpg",
+            "backgroundImage": "./images/hazard.jpg",
+            "textTitle": "HACCP: Los mayores riesgos que amenazan la industria de alimentos y sus medidas preventivas",
+            "textDescription": "Consejos de inocuidad y control en las industrias de alimentos\n.",
+            "textColor": "dimgray",
+            "buttonText": "Entra aqui!",
+            "buttonUrl": "https://www.linkedin.com/pulse/los-mayores-riesgos-que-amenazan-la-industria-de-y-sus-santiba%C3%B1ez/"
+          },
+          {
+            "iconImage": "./icons/procesos.webp",
+            "backgroundImage": "./icons/procesos.webp",
+            "textTitle": "¿ Por qué no hay resultados en tus procesos de Saneamiento Ambiental?",
+            "textDescription": "Las malas prácticas en los procesos son el mayor problema.",
+            "buttonText": "Entra aqui",
+            "buttonUrl": "https://www.linkedin.com/pulse/por-qu%25C3%25A9-hay-resultados-en-tus-procesos-de-saneamiento-santiba%25C3%25B1ez/"
+          },
+          {
+            "iconImage": "./icons/economia-circular.png",
+            "backgroundImage": "./icons/eco.jpg",
+            "textTitle": "Economia circular en nuestro país",
+            "textDescription": "¿Como era antes de que empiece la era del plástico y porqué es tan dificil deshacernos de este material\n",
+            "buttonText": "Entra aqui",
+            "buttonUrl": "https://www.linkedin.com/pulse/econom%25C3%25ADa-circular-renato-santiba%25C3%25B1ez/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Servicios",
+      "name": "Servicios",
+      "cardType": "textWithSimpleImage",
+      "showNav": true,
+      "metadata": {
+        "imageUrl": "./images/Collage.jpg",
+        "cardTitle": "Servicios",
+        "textTitle": "",
+        "textParagraphs": [
+          " La fumigación es la acción de desinfectar o desinsectar mediante la manipulación de agentes químicos en estado líquido, gaseoso o vapor.",
+          "Nuestros métodos de fumigación varian de acuerdo a la plaga que se debe eliminar o controlar",
+          "Aspersión Manual: método correctivo y también preventivo, su efecto prolongado puede llegar a durar desde horas hasta semanas y se aplica en grietas,pisos,orillas y todas las partes posibles de un ambiente.",
+          "Pulverización a Motor: Se utiliza para amplias superficies, generalmente se aplica en zonas externas a los establecimientos como entradas de edificios, paredes, jardines ya que tiene gran potencia y alcance.",
+          "Limpieza integral: Eliminar la suciedad visible como aquella que aparentemente no existe, puede ser causa de infecciones"
+        ]
+      }
+    },
+    {
+      "id": "Clientes",
+      "name": "Clientes",
+      "cardType": "onlyImages",
+      "showNav": true,
+      "metadata": {
+        "cardTitle": "Algunos de nuestros clientes",
+        "images": [
+          "./images/companies/dgallia.jpg",
+          "./images/companies/norkys.jpg",
+          "./images/companies/renadsa.png",
+          "./images/aldeas-infantiles.jpg"
+        ]
+      }
+    }
+  ]
+}
